@@ -1,0 +1,202 @@
+/* Page Header */
+.page-header {
+    text-align: center;
+    max-width: 700px;
+    margin: 40px auto 60px auto;
+}
+.page-header h1 { font-size: 36px; margin-bottom: 15px; }
+.page-header p { color: var(--text-color-light); font-size: 18px; }
+
+/* Breathing Animation Section */
+.breathing-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    min-height: 300px;
+}
+.breathing-circle-container {
+    position: relative;
+}
+.breathing-circle {
+    width: 250px;
+    height: 250px;
+    background: radial-gradient(circle, var(--secondary-color) 0%, var(--primary-color) 100%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    animation: breathing-cycle 10s ease-in-out infinite;
+    box-shadow: 0 10px 30px rgba(106, 90, 205, 0.4);
+}
+#breathing-text {
+    animation: text-fade 10s ease-in-out infinite;
+}
+
+@keyframes breathing-cycle {
+    0%, 100% { transform: scale(0.9); }
+    50% { transform: scale(1.1); }
+}
+@keyframes text-fade {
+    0%, 100% { content: "Breathe In"; opacity: 1; }
+    45% { opacity: 0; }
+    50% { content: "Breathe Out"; opacity: 1; }
+    95% { opacity: 0; }
+}
+
+/* Tools Grid (Timer and Sounds) */
+.tools-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+.tool-card {
+    background: var(--white-color);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 30px;
+    text-align: center;
+}
+.tool-card h3 {
+    margin-top: 0;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+/* Timer Styles */
+#timer-display {
+    font-size: 64px;
+    font-weight: 700;
+    margin: 15px 0;
+    color: var(--primary-color);
+}
+.timer-presets {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+.preset-btn {
+    background: #f1f1f1;
+    border: 1px solid #ddd;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: var(--font-family);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.preset-btn.active, .preset-btn:hover {
+    background: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+.timer-controls {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.timer-controls .btn, .timer-controls .btn-secondary {
+    flex: 1;
+}
+
+/* Sound Controls Styles */
+.sound-controls {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.sound-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px solid var(--border-color);
+    background: transparent;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+.sound-btn i {
+    font-size: 28px;
+    color: var(--text-color-light);
+    transition: color 0.3s ease;
+}
+.sound-btn:hover, .sound-btn.active {
+    border-color: var(--primary-color);
+    background-color: #f8f7ff;
+    color: var(--primary-color);
+}
+.sound-btn.active i, .sound-btn:hover i {
+    color: var(--primary-color);
+}
+
+
+/* Journey Section */
+.journey-section {
+    text-align: center;
+    padding: 50px;
+    background-color: var(--light-gray-bg);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-color);
+}
+.journey-section h2 {
+    font-size: 28px;
+    margin-top: 0;
+}
+.journey-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+}
+.journey-stat {
+    background: white;
+    padding: 25px;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-color);
+}
+.journey-stat i {
+    font-size: 28px;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+.journey-stat span {
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+}
+.journey-stat p {
+    margin: 0;
+    color: var(--text-color-light);
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .tools-grid {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 768px) {
+    .journey-grid {
+        grid-template-columns: 1fr;
+    }
+    .breathing-circle {
+        width: 200px;
+        height: 200px;
+        font-size: 26px;
+    }
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Recipes - GreenBite</title>
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/favorites.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">❋ GreenBite</a>
+            <nav class="main-nav" id="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="calculator.html">Calculator</a></li>
+                    <li><a href="workout-generator.html">Workouts</a></li>
+                    <li><a href="mindfulness.html">Mindfulness</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="favorites.html" class="favorites-link"><i class="fas fa-heart"></i><span>Favorites</span></a>
+                <button type="button" class="hamburger" id="hamburger-button" aria-label="Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <div class="page-header">
+            <h1>My Favorite Recipes</h1>
+        </div>
+
+        <section id="favorites-grid" class="favorites-grid">
+            <h2>Saved Recipes</h2>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-newsletter">
+                <h3>Stay Updated</h3>
+                <p>Subscribe to our newsletter for the latest health tips and recipes.</p>
+                <form id="newsletter-form">
+                    <div class="newsletter-input-group">
+                        <input type="email" id="newsletter-email" placeholder="Enter your email address" required>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </div>
+                    <p id="newsletter-feedback"></p>
+                </form>
+            </div>
+            <div class="footer-main">
+                <div class="footer-column about-us">
+                    <a href="index.html" class="logo footer-logo">❋ GreenBite</a>
+                    <p>Your daily dose of wellness inspiration and tools for a healthier lifestyle.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="workout-generator.html">Workouts</a></li>
+                        <li><a href="mindfulness.html">Mindfulness</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                 <p>&copy; 2025 GreenBite. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/favorites.js"></script>
+</body>
+</html>

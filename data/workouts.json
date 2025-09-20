@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "Push-ups",
+        "type": "exercise",
+        "bodyPart": ["Full Body", "Chest", "Arms"],
+        "equipment": ["none"],
+        "icon": "image/Workout/Exercise_Preview_Icons/icon_pushups.png",
+        "demoImage": "image/Workout/Exercise_Preview_Icons/icon_pushups.png",
+        "description": "A foundational bodyweight exercise for upper body strength.",
+        "instructions": ["Start in a high plank position.", "Lower your body until your chest is just above the floor.", "Push back up to the starting position."],
+        "safetyTips": ["Keep your body in a straight line.", "Engage your core."]
+    },
+    {
+        "id": 2,
+        "name": "Squats",
+        "type": "exercise",
+        "bodyPart": ["Legs", "Full Body"],
+        "equipment": ["none"],
+        "icon": "image/Workout/Exercise_Preview_Icons/icon_squats.png",
+        "demoImage": "image/Workout/Exercise_Preview_Icons/icon_squats.png",
+        "description": "Builds leg strength and targets the glutes, quads, and hamstrings.",
+        "instructions": ["Stand with feet shoulder-width apart.", "Lower your hips as if sitting in a chair.", "Return to the starting position."],
+        "safetyTips": ["Keep your back straight.", "Don't let your knees go past your toes."]
+    },
+    {
+        "id": 3,
+        "name": "Plank",
+        "type": "exercise",
+        "bodyPart": ["Full Body", "Core"],
+        "equipment": ["none"],
+        "icon": "image/Workout/Exercise_Preview_Icons/icon_planks.png",
+        "demoImage": "image/Workout/Exercise_Preview_Icons/icon_planks.png",
+        "description": "An isometric core exercise that helps stabilize your spine.",
+        "instructions": ["Rest on your forearms with elbows under shoulders.", "Keep your body in a straight line.", "Hold for the desired time."],
+        "safetyTips": ["Don't let your hips sag.", "Keep your neck neutral."]
+    },
+    {
+        "id": 4,
+        "name": "Jumping Jacks",
+        "type": "exercise",
+        "bodyPart": ["Full Body"],
+        "equipment": ["none"],
+        "icon": "image/Workout/Exercise_Preview_Icons/icon_jumpingjacks.png",
+        "demoImage": "image/Workout/Exercise_Preview_Icons/icon_jumpingjacks.png",
+        "description": "A full-body exercise that boosts your heart rate.",
+        "instructions": ["Stand with feet together.", "Jump while spreading your legs and bringing arms overhead.", "Jump back to the start."],
+        "safetyTips": ["Land softly on your feet.", "Maintain a steady pace."]
+    },
+    {
+        "id": 5,
+        "name": "Lunges",
+        "type": "exercise",
+        "bodyPart": ["Legs"],
+        "equipment": ["none"],
+        "icon": "image/Workout/Exercise_Preview_Icons/icon_lunges.png",
+        "demoImage": "image/Workout/Exercise_Preview_Icons/icon_lunges.png",
+        "description": "Targets the quadriceps, glutes, and hamstrings.",
+        "instructions": ["Step forward with one leg.", "Lower hips until both knees are at a 90-degree angle.", "Push back and switch legs."],
+        "safetyTips": ["Keep your front knee above your ankle.", "Don't let your back knee touch the ground."]
+    },
+    {
+        "id": 6,
+        "name": "Crunches",
+        "type": "exercise",
+        "bodyPart": ["Core"],
+        "equipment": ["none"],
+        "icon": "image/Workout/Exercise_Preview_Icons/icon_crunches.png",
+        "demoImage": "image/Workout/Exercise_Preview_Icons/icon_crunches.png",
+        "description": "A classic abdominal exercise to strengthen the core.",
+        "instructions": ["Lie on your back with knees bent.", "Lift your upper body towards your knees.", "Lower back down slowly."],
+        "safetyTips": ["Don't pull on your neck.", "Use your abs to lift."]
+    },
+    {
+        "id": 7,
+        "name": "Burpees",
+        "type": "exercise",
+        "bodyPart": ["Full Body"],
+        "equipment": ["none"],
+        "icon": "image/Workout/Exercise_Preview_Icons/icon_burpees.png",
+        "demoImage": "image/Workout/Exercise_Preview_Icons/icon_burpees.png",
+        "description": "A high-intensity, full-body movement.",
+        "instructions": ["From standing, drop to a squat, kick feet to a plank.", "Do a push-up, jump feet back to squat.", "Jump up explosively."],
+        "safetyTips": ["Maintain control throughout.", "Start slowly to master the form."]
+    },
+    {
+        "id": 8,
+        "name": "Mountain Climbers",
+        "type": "exercise",
+        "bodyPart": ["Full Body", "Core"],
+        "equipment": ["none"],
+        "icon": "image/Workout/Exercise_Preview_Icons/icon_mountainclimbers.png",
+        "demoImage": "image/Workout/Exercise_Preview_Icons/icon_mountainclimbers.png",
+        "description": "A dynamic exercise that builds core strength and cardio.",
+        "instructions": ["Start in a plank position.", "Alternate bringing one knee towards your chest quickly.", "Continue in a running motion."],
+        "safetyTips": ["Keep your back flat.", "Keep your core engaged."]
+    }
+]

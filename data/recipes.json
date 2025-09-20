@@ -1,0 +1,194 @@
+[
+    {
+        "id": 1,
+        "name": "Vibrant Smoothie Bowl",
+        "image": "image/Recipes_Page/Thumbnails/smoothie_bowl.jpg",
+        "hero_image": "image/Recipes_Page/Thumbnails/smoothie_bowl.jpg",
+        "description": "A nutritious and vibrant breakfast bowl to start your day right.",
+        "category": "Breakfast",
+        "dietary": ["Vegan", "Gluten-Free"],
+        "calories": 300,
+        "ingredients": ["1 cup spinach", "1 frozen banana", "1/2 cup almond milk", "Toppings: berries, granola"],
+        "steps": [
+            { "text": "Combine spinach, banana, and almond milk in a blender.", "image": "image/Recipes_Page/Step-by-Step_Cooking/step_blending_smoothie.png" },
+            { "text": "Blend until smooth and creamy.", "image": "" },
+            { "text": "Pour into a bowl and add your favorite toppings.", "image": "" }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Grilled Salmon & Asparagus",
+        "image": "image/Recipes_Page/Thumbnails/grilled_salmon.jpg",
+        "hero_image": "image/Recipes_Page/Hero_Banner/hero_grilled_salmon.jpg",
+        "description": "A simple yet elegant salmon dish, perfectly flaky and tender.",
+        "category": "Main Course",
+        "dietary": ["Gluten-Free", "Dairy-Free"],
+        "calories": 450,
+        "ingredients": ["1 salmon fillet", "1 bunch asparagus", "1 tbsp olive oil", "1 lemon"],
+        "steps": [
+            { "text": "Preheat oven to 400°F (200°C).", "image": "" },
+            { "text": "Place salmon and asparagus on a baking sheet and drizzle with olive oil.", "image": "" },
+            { "text": "Bake for 12-15 minutes until the salmon is cooked through.", "image": "image/Recipes_Page/Step-by-Step_Cooking/step_cooking_salmon.jpg .png" }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Fresh Fruit Parfait",
+        "image": "image/Recipes_Page/Thumbnails/fruit_parfait.jpg",
+        "hero_image": "image/Recipes_Page/Thumbnails/fruit_parfait.jpg",
+        "description": "A layered delight of yogurt, fruits, and granola.",
+        "category": "Breakfast",
+        "dietary": ["Gluten-Free"],
+        "calories": 250,
+        "ingredients": ["1 cup Greek yogurt", "1/2 cup mixed berries", "1/4 cup granola"],
+        "steps": [
+            { "text": "In a glass, layer yogurt, berries, and granola.", "image": "image/Recipes_Page/Step-by-Step_Cooking/step_pouring_yogurt.png" },
+            { "text": "Repeat the layers until the glass is full.", "image": "" },
+            { "text": "Serve immediately for the best texture.", "image": "" }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Tofu & Veggie Stir-fry",
+        "image": "image/Recipes_Page/Thumbnails/veggie_stirfry.jpg",
+        "hero_image": "image/Recipes_Page/Hero_Banner/hero_veggie_stirfry.jpg",
+        "description": "A quick, flavorful, and healthy weeknight dinner.",
+        "category": "Main Course",
+        "dietary": ["Vegan", "Dairy-Free"],
+        "calories": 380,
+        "ingredients": ["1 block tofu, cubed", "1 cup broccoli florets", "1 bell pepper, sliced", "2 tbsp soy sauce"],
+        "steps": [
+            { "text": "Cut fresh vegetables on a cutting board.", "image": "image/Recipes_Page/Step-by-Step_Cooking/step_cutting_veggies.png" },
+            { "text": "Stir-fry tofu in a hot pan until golden brown.", "image": "" },
+            { "text": "Add vegetables and cook until tender-crisp, then add soy sauce.", "image": "" }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Gourmet Avocado Toast",
+        "image": "image/Recipes_Page/Thumbnails/avocado_toast.jpg",
+        "hero_image": "image/Recipes_Page/Thumbnails/avocado_toast.jpg",
+        "description": "A classic breakfast with a gourmet twist.",
+        "category": "Breakfast",
+        "dietary": [],
+        "calories": 280,
+        "ingredients": ["2 slices whole-grain bread", "1 avocado", "1 poached egg", "Red pepper flakes"],
+        "steps": [
+            { "text": "Toast the bread to your liking.", "image": "" },
+            { "text": "Mash the avocado and spread it evenly on the toast.", "image": "" },
+            { "text": "Top with a poached egg and a sprinkle of seasonings.", "image": "" }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Classic Chicken Salad",
+        "image": "image/Recipes_Page/Thumbnails/chicken_salad.jpg",
+        "hero_image": "image/Recipes_Page/Thumbnails/chicken_salad.jpg",
+        "description": "A light and refreshing salad with grilled chicken.",
+        "category": "Salad",
+        "dietary": ["Gluten-Free"],
+        "calories": 320,
+        "ingredients": ["1 grilled chicken breast, sliced", "2 cups mixed greens", "1/2 cucumber, sliced", "Balsamic vinaigrette"],
+        "steps": [
+            { "text": "In a large bowl, combine the mixed greens and sliced cucumber.", "image": "image/Recipes_Page/Step-by-Step_Cooking/step_mixing_salad.png" },
+            { "text": "Add the sliced grilled chicken on top.", "image": "" },
+            { "text": "Drizzle with balsamic vinaigrette just before serving.", "image": "" }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Hearty Lentil Soup",
+        "image": "image/Recipes_Page/Thumbnails/lentil_soup.jpg",
+        "hero_image": "image/Recipes_Page/Thumbnails/lentil_soup.jpg",
+        "description": "A warm and comforting soup, rich in plant-based protein.",
+        "category": "Main Course",
+        "dietary": ["Vegan", "Gluten-Free"],
+        "calories": 350,
+        "ingredients": ["1 cup brown lentils", "1 onion, chopped", "2 carrots, diced", "4 cups vegetable broth"],
+        "steps": [
+            { "text": "Sauté onion and carrots in a large pot until soft.", "image": "" },
+            { "text": "Add lentils and vegetable broth, then bring to a boil.", "image": "" },
+            { "text": "Simmer for 25-30 minutes until the lentils are tender and serve.", "image": "image/Recipes_Page/Step-by-Step_Cooking/step_serving_soup.png" }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Colorful Buddha Bowl",
+        "image": "image/Recipes_Page/Thumbnails/buddha_bowl.jpg",
+        "hero_image": "image/Recipes_Page/Thumbnails/buddha_bowl.jpg",
+        "description": "A balanced and nourishing meal in a single bowl.",
+        "category": "Main Course",
+        "dietary": ["Vegan", "Gluten-Free"],
+        "calories": 420,
+        "ingredients": ["1 cup quinoa, cooked", "1/2 cup chickpeas", "1 cup spinach", "Tahini dressing"],
+        "steps": [
+            { "text": "Arrange the cooked quinoa, chickpeas, and fresh spinach in a bowl.", "image": "" },
+            { "text": "Drizzle generously with tahini dressing.", "image": "" },
+            { "text": "Serve either warm or cold.", "image": "" }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Zucchini Noodles with Pesto",
+        "image": "image/Recipes_Page/Thumbnails/zucchini_noodles.jpg",
+        "hero_image": "image/Recipes_Page/Thumbnails/zucchini_noodles.jpg",
+        "description": "A light, low-carb alternative to traditional pasta.",
+        "category": "Main Course",
+        "dietary": ["Gluten-Free"],
+        "calories": 280,
+        "ingredients": ["2 large zucchinis, spiralized", "1/4 cup pesto", "1/4 cup cherry tomatoes, halved"],
+        "steps": [
+            { "text": "Gently sauté the zucchini noodles for 2-3 minutes until just tender.", "image": "" },
+            { "text": "Toss with pesto sauce and halved cherry tomatoes.", "image": "image/Recipes_Page/Step-by-Step_Cooking/step_plating_zoodles.png" },
+            { "text": "Serve immediately.", "image": "" }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Hummus & Veggie Platter",
+        "image": "image/Recipes_Page/Thumbnails/hummus_platter.jpg",
+        "hero_image": "image/Recipes_Page/Thumbnails/hummus_platter.jpg",
+        "description": "A perfect appetizer or light lunch for sharing.",
+        "category": "Salad",
+        "dietary": ["Vegan", "Gluten-Free"],
+        "calories": 250,
+        "ingredients": ["1 cup hummus", "1 cucumber, sliced", "1 carrot, sliced", "Pita bread (optional)"],
+        "steps": [
+            { "text": "Spread the hummus on a large platter or plate.", "image": "" },
+            { "text": "Arrange the sliced vegetables and pita bread around the hummus.", "image": "" },
+            { "text": "Serve as a healthy and easy appetizer.", "image": "" }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Yogurt with Fresh Berries",
+        "image": "image/Recipes_Page/Step-by-Step_Cooking/step_pouring_yogurt.png",
+        "hero_image": "image/Recipes_Page/Step-by-Step_Cooking/step_pouring_yogurt.png",
+        "description": "A simple, healthy, and delicious breakfast or snack.",
+        "category": "Breakfast",
+        "dietary": ["Gluten-Free"],
+        "calories": 180,
+        "ingredients": ["1 cup Greek yogurt", "1/2 cup mixed berries", "1 tsp honey (optional)"],
+        "steps": [
+            { "text": "Place the Greek yogurt in a bowl.", "image": "" },
+            { "text": "Top with your favorite fresh berries.", "image": "" },
+            { "text": "If desired, drizzle with a small amount of honey before serving.", "image": "" }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Mediterranean Quinoa Salad",
+        "image": "image/Recipes_Page/Thumbnails/quinoa_salad.jpg",
+        "hero_image": "image/Recipes_Page/Hero_Banner/hero_quinoa_salad.jpg",
+        "description": "A refreshing salad with vibrant vegetables.",
+        "category": "Salad",
+        "dietary": ["Gluten-Free"],
+        "calories": 350,
+        "ingredients": ["1 cup quinoa, cooked", "1 cucumber, diced", "1 cup cherry tomatoes", "1/4 cup feta cheese"],
+        "steps": [
+            { "text": "Combine all ingredients in a large bowl.", "image": "image/Recipes_Page/Step-by-Step_Cooking/step_mixing_salad.png" },
+            { "text": "Drizzle with olive oil and lemon juice.", "image": "" },
+            { "text": "Toss to combine and serve immediately.", "image": "" }
+        ]
+    }
+]

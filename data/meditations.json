@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "Mindful Morning Start",
+        "duration": 10,
+        "image": "images/mindfulness/meditation_guide_1.jpg",
+        "description": "A gentle 10-minute session to help you center your focus and set a positive intention for the day ahead."
+    },
+    {
+        "id": 2,
+        "title": "Deep Sleep Meditation",
+        "duration": 20,
+        "image": "images/mindfulness/meditation_guide_2.jpg",
+        "description": "Prepare your mind and body for a restorative night's sleep with this calming audio guide."
+    },
+    {
+        "id": 3,
+        "title": "Stress Relief Breathwork",
+        "duration": 5,
+        "image": "images/mindfulness/meditation_guide_3.jpg",
+        "description": "A short 5-minute exercise to calm your nervous system and reduce immediate feelings of stress."
+    },
+    {
+        "id": 4,
+        "title": "Focused Work Session",
+        "duration": 30,
+        "image": "images/mindfulness/meditation_guide_4.jpg",
+        "description": "A 30-minute guide to enhance concentration and productivity during work or study."
+    }
+]

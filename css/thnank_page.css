@@ -1,0 +1,23 @@
+.thank-you-container {
+text-align: center;
+padding: 100px 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height: 60vh;
+}
+.thank-you-container h1 {
+font-size: 36px;
+margin-bottom: 15px;
+}
+.thank-you-container p {
+color: var(--text-color-light);
+max-width: 500px;
+margin-bottom: 30px;
+}
+.thank-you-container img {
+max-width: 200px;
+margin-bottom: 30px;
+}
+   
