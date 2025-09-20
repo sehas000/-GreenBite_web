@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GreenBite - Nourish Your Body, Elevate Your Life</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="stylesheet" href="css/theme.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="manifest" href="manifest.json">
 </head>
 <body>
     <header>
@@ -24,8 +27,8 @@
             </nav>
             <div class="header-actions">
                 <a href="favorites.html" class="favorites-link"><i class="fas fa-heart"></i><span>Favorites</span></a>
-                <button type="button" class="hamburger" id="hamburger-button" aria-label="Menu">
-                    <i class="fas fa-bars"></i>
+                <button type="button" class="hamburger" id="hamburger-button" title="Menu">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
                 </button>
             </div>
         </div>
@@ -40,10 +43,11 @@
                     <a href="recipes.html" class="btn">Explore Recipes</a>
                 </div>
                 <div class="hero-image">
-                    <img src="image/home_page/Hero_Banner.jpg" alt="A lush green park path">
+                    <img src="image/home_page/Hero_Banner.jpg" alt="A healthy salad bowl with a person running in the background.">
                 </div>
             </div>
         </section>
+
         <section class="daily-tip-section">
             <div class="container">
                 <div class="daily-tip-content">
@@ -55,6 +59,7 @@
                 </div>
             </div>
         </section>
+
         <section class="container feature-section">
             <h2 class="section-title">Delicious & Nutritious Recipes</h2>
             <p class="section-subtitle">Explore a variety of healthy recipes tailored to your dietary needs and preferences.</p>
@@ -75,29 +80,30 @@
                     <a href="recipes.html" class="btn-secondary">View Recipe</a>
                 </div>
                 <div class="feature-card">
-                    <img src="image/Recipes_Page/Thumbnails/chicken_salad.jpg" alt="Lemon Herb Chicken">
-                    <h3>Lemon Herb Chicken</h3>
+                    <img src="image/Recipes_Page/Thumbnails/chicken_salad.jpg" alt="Classic Chicken Salad">
+                    <h3>Classic Chicken Salad</h3>
                     <a href="recipes.html" class="btn-secondary">View Recipe</a>
                 </div>
             </div>
         </section>
+        
         <section class="container feature-section">
             <h2 class="section-title">Effective Workout Plans</h2>
-            <p class="section-subtitle">Find workout plans that fit your goals and lifestyle, from yoga to high-intensity training.</p>
+            <p class="section-subtitle">Find workout plans that fit your goals and lifestyle, from bodyweight exercises to guided routines.</p>
              <div class="features-grid">
                 <div class="feature-card">
-                    <img src="image/Workout/Exercise_Preview_Icons/icon_jumpingjacks.png" alt="Morning Yoga Flow">
-                    <h3>Morning Yoga Flow</h3>
+                    <img src="image/Workout/Exercise_Preview_Icons/icon_jumpingjacks.png" alt="Full Body Cardio">
+                    <h3>Full Body Cardio</h3>
                     <a href="workout-generator.html" class="btn-secondary">Start Workout</a>
                 </div>
                 <div class="feature-card">
-                    <img src="image/Workout/Exercise_Preview_Icons/icon_lunges.png" alt="HIIT Cardio Blitz">
-                    <h3>HIIT Cardio Blitz</h3>
+                    <img src="image/Workout/Exercise_Preview_Icons/icon_lunges.png" alt="Lower Body Strength">
+                    <h3>Lower Body Strength</h3>
                     <a href="workout-generator.html" class="btn-secondary">Start Workout</a>
                 </div>
                  <div class="feature-card">
-                    <img src="image/Workout/Exercise_Preview_Icons/icon_squats.png" alt="Full Body Strength">
-                    <h3>Full Body Strength</h3>
+                    <img src="image/Workout/Exercise_Preview_Icons/icon_squats.png" alt="Leg Day Essentials">
+                    <h3>Leg Day Essentials</h3>
                     <a href="workout-generator.html" class="btn-secondary">Start Workout</a>
                 </div>
                 <div class="feature-card">
@@ -107,32 +113,7 @@
                 </div>
              </div>
         </section>
-        <section class="container feature-section">
-            <h2 class="section-title">Mindfulness & Well-being</h2>
-            <p class="section-subtitle">Cultivate calm and focus with our guided meditations and breathing exercises.</p>
-             <div class="features-grid">
-                <div class="feature-card">
-                    <img src="image/Mindfulness/meditation_guide.png" alt="Mindful Morning Start">
-                    <h3>Mindful Morning</h3>
-                    <a href="mindfulness.html" class="btn-secondary">Begin Session</a>
-                </div>
-                <div class="feature-card">
-                    <img src="image/Mindfulness/mindfulness_background.png" alt="Deep Sleep Meditation">
-                    <h3>Deep Sleep Meditation</h3>
-                    <a href="mindfulness.html" class="btn-secondary">Begin Session</a>
-                </div>
-                 <div class="feature-card">
-                    <img src="image/home_page/Featured_Mindfulness_Card.jpg" alt="Stress Relief Breathwork">
-                    <h3>Stress Relief</h3>
-                    <a href="mindfulness.html" class="btn-secondary">Begin Session</a>
-                </div>
-                <div class="feature-card">
-                    <img src="image/Mindfulness/icon_forest.png" alt="Focus Enhancement">
-                    <h3>Focus Enhancement</h3>
-                    <a href="mindfulness.html" class="btn-secondary">Begin Session</a>
-                </div>
-             </div>
-        </section>
+        
         <section class="testimonials">
             <div class="container">
                 <h2 class="section-title">What Our Users Say</h2>
@@ -156,6 +137,7 @@
             </div>
         </section>
     </main>
+
     <footer>
         <div class="container">
             <div class="footer-newsletter">
@@ -203,6 +185,7 @@
             </div>
         </div>
     </footer>
+
     <script src="js/main.js"></script>
 </body>
 </html>
